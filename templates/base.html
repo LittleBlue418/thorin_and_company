@@ -43,7 +43,8 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/the_company_of_thorin_oakenshield_from_the_hobbit_by_nickofdoom-d5sam4l-620x296.png') }}')">
+    <header class="masthead"
+        style="background-image: url('{{ url_for('static', filename='img/the_company_of_thorin_oakenshield_from_the_hobbit_by_nickofdoom-d5sam4l-620x296.png') }}')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -59,8 +60,8 @@
 
     <!-- Main Content -->
     <div class="container">
-           {% block content %}
-            {% endblock %}
+        {% block content %}
+        {% endblock %}
     </div>
 
     <hr>
