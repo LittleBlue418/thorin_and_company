@@ -40,4 +40,8 @@ def careers():
 
 if __name__ == "__main__":
     # remove debug=true before assessment!!
-    app.run(port=int(os.environ.get('PORT', 5000)), debug=True)
+    app.run(
+        host='0.0.0.0',
+        port=int(os.environ.get('PORT', 5000)),
+        debug=True
+    )
